@@ -30,7 +30,7 @@ public class baseTest implements Constant {
 	    String name = testResult.getName();
 	    int status = testResult.getStatus();
 	    if (status == 1) {
-	    	Reporter.log(name + "is passed", true);
+	    	Reporter.log(name + "is passed passed", true);
 	    }
 	    else {
 	    	Reporter.log(name + "is failed", true);
